@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+    container_name: medicamentos-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      # Persist venv to avoid reinstalling on every run if user wants, 
+      # but we generally use the container's python.
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: medicamentos-frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules # Prevent host node_modules from overwriting container's
+    environment:
+      - CHOKIDAR_USEPOLLING=true # Better hot-reload on Windows
+    depends_on:
+      - backend
+    restart: unless-stopped

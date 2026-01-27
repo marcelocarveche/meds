@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 13 17 23; /* #0d1117 */
+    --surface: 22 27 34; /* #161b22 */
+    --border: 48 54 61; /* #30363d */
+    --text: 201 209 217; /* #c9d1d9 */
+    --primary: 47 129 247; /* #2f81f7 */
+    --danger: 248 81 73; /* #f85149 */
+    --success: 63 185 80; /* #3fb950 */
+    --warning: 210 153 34; /* #d29922 */
+  }
+
+  body {
+    @apply bg-[rgb(var(--background))] text-[rgb(var(--text))] antialiased;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

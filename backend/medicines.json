@@ -1,0 +1,202 @@
+{
+    "medicines": [
+        {
+            "id": "alois-memantina-10mg",
+            "name": "Alois Memantina",
+            "substance": "Cloridrato de Memantina",
+            "dosage": "10mg",
+            "quantity": 12,
+            "periods": [
+                "cafe",
+                "jantar"
+            ],
+            "type": "Comprimido",
+            "price": 0.0,
+            "requires_prescription": true,
+            "source": "Comprado"
+        },
+        {
+            "id": "sustrate-10mg",
+            "name": "Sustrate",
+            "substance": "Propaltinitrato",
+            "dosage": "10mg",
+            "quantity": 22,
+            "periods": [
+                "cafe",
+                "almoco",
+                "dormir"
+            ],
+            "type": "Comprimido",
+            "price": 0.0,
+            "requires_prescription": false,
+            "source": "Comprado"
+        },
+        {
+            "id": "vastarel-35mg",
+            "name": "Vastarel",
+            "substance": "Dicloridrato de Trimetazidina",
+            "dosage": "35mg",
+            "quantity": 60,
+            "periods": [
+                "cafe",
+                "dormir"
+            ],
+            "type": "Comprimido",
+            "price": 0.0,
+            "requires_prescription": false,
+            "source": "Comprado"
+        },
+        {
+            "id": "desven-100mg",
+            "name": "Desven",
+            "substance": "Succinato de Desvenlafaxina Monoidratado",
+            "dosage": "100mg",
+            "quantity": 11,
+            "periods": [
+                "cafe"
+            ],
+            "type": "Comprimido",
+            "price": 0.0,
+            "requires_prescription": true,
+            "source": "Comprado"
+        },
+        {
+            "id": "euthirox-112mcg",
+            "name": "Euthirox",
+            "substance": "Levotiroxina S\u00f3dica",
+            "dosage": "112mcg",
+            "quantity": 60,
+            "periods": [
+                "cafe"
+            ],
+            "type": "Comprimido"
+        },
+        {
+            "id": "benicar-20mg",
+            "name": "Benicar",
+            "substance": "Olmesartana Medoxomila",
+            "dosage": "20mg",
+            "quantity": 0,
+            "periods": [
+                "almoco"
+            ],
+            "type": "Comprimido",
+            "price": 0.0,
+            "requires_prescription": false,
+            "source": "Comprado"
+        },
+        {
+            "id": "doxasozina-2mg",
+            "name": "Doxasozina",
+            "substance": "Doxasozina",
+            "dosage": "2mg",
+            "quantity": 1,
+            "periods": [
+                "almoco"
+            ],
+            "type": "Comprimido",
+            "price": 0.0,
+            "requires_prescription": false,
+            "source": "Comprado"
+        },
+        {
+            "id": "finasterida-5mg",
+            "name": "Finasterida",
+            "substance": "Finasterida",
+            "dosage": "5mg",
+            "quantity": 1,
+            "periods": [
+                "almoco"
+            ],
+            "type": "Comprimido",
+            "price": 0.0,
+            "requires_prescription": false,
+            "source": "Comprado"
+        },
+        {
+            "id": "lixiana-30mg",
+            "name": "Lixiana",
+            "substance": "Edoxabana",
+            "dosage": "30mg",
+            "quantity": 13,
+            "periods": [
+                "almoco"
+            ],
+            "type": "Comprimido",
+            "price": 0.0,
+            "requires_prescription": false,
+            "source": "Comprado"
+        },
+        {
+            "id": "amitriptilina-25mg",
+            "name": "Amitriptilina",
+            "substance": "Amitriptilina",
+            "dosage": "25mg",
+            "quantity": 58,
+            "periods": [
+                "cafe"
+            ],
+            "type": "Comprimido",
+            "price": 0.0,
+            "requires_prescription": true,
+            "source": "Comprado"
+        },
+        {
+            "id": "rosuvastatina-10mg",
+            "name": "Rosuvastatina",
+            "substance": "Rosuvastatina",
+            "dosage": "10mg",
+            "quantity": 2,
+            "periods": [
+                "jantar"
+            ],
+            "type": "Comprimido",
+            "price": 0.0,
+            "requires_prescription": false,
+            "source": "Comprado"
+        },
+        {
+            "id": "concor-5mg",
+            "name": "Concor",
+            "substance": "Hemifumarato de Bisoprolol",
+            "dosage": "5mg",
+            "quantity": 6,
+            "periods": [
+                "dormir"
+            ],
+            "type": "Comprimido",
+            "price": 0.0,
+            "requires_prescription": false,
+            "source": "Comprado"
+        },
+        {
+            "id": "quetiapina-50mg",
+            "name": "Quetiapina",
+            "substance": "Quetiapina",
+            "dosage": "50mg",
+            "quantity": 10,
+            "periods": [
+                "dormir"
+            ],
+            "type": "Comprimido",
+            "price": 0.0,
+            "requires_prescription": true,
+            "source": "Comprado"
+        },
+        {
+            "id": "rivotril-1mg",
+            "name": "Rivotril",
+            "substance": "Clonazepam",
+            "dosage": "1mg",
+            "quantity": 30,
+            "periods": [
+                "dormir"
+            ],
+            "type": "Comprimido",
+            "price": 0.0,
+            "requires_prescription": true,
+            "source": "Comprado"
+        }
+    ],
+    "history": []
+}

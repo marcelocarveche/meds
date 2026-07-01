@@ -5,7 +5,7 @@
             "name": "Alois Memantina",
             "substance": "Cloridrato de Memantina",
             "dosage": "10mg",
-            "quantity": 12,
+            "quantity": 9,
             "periods": [
                 "cafe",
                 "jantar"
@@ -20,7 +20,7 @@
             "name": "Sustrate",
             "substance": "Propaltinitrato",
             "dosage": "10mg",
-            "quantity": 22,
+            "quantity": 23,
             "periods": [
                 "cafe",
                 "almoco",
@@ -36,7 +36,7 @@
             "name": "Vastarel",
             "substance": "Dicloridrato de Trimetazidina",
             "dosage": "35mg",
-            "quantity": 60,
+            "quantity": 0,
             "periods": [
                 "cafe",
                 "dormir"
@@ -51,7 +51,7 @@
             "name": "Desven",
             "substance": "Succinato de Desvenlafaxina Monoidratado",
             "dosage": "100mg",
-            "quantity": 11,
+            "quantity": 35,
             "periods": [
                 "cafe"
             ],
@@ -65,18 +65,21 @@
             "name": "Euthirox",
             "substance": "Levotiroxina S\u00f3dica",
             "dosage": "112mcg",
-            "quantity": 60,
+            "quantity": 9,
             "periods": [
                 "cafe"
             ],
-            "type": "Comprimido"
+            "type": "Comprimido",
+            "price": 0.0,
+            "requires_prescription": false,
+            "source": "Comprado"
         },
         {
             "id": "benicar-20mg",
             "name": "Benicar",
             "substance": "Olmesartana Medoxomila",
             "dosage": "20mg",
-            "quantity": 0,
+            "quantity": 11,
             "periods": [
                 "almoco"
             ],
@@ -90,7 +93,7 @@
             "name": "Doxasozina",
             "substance": "Doxasozina",
             "dosage": "2mg",
-            "quantity": 1,
+            "quantity": 0,
             "periods": [
                 "almoco"
             ],
@@ -104,7 +107,7 @@
             "name": "Finasterida",
             "substance": "Finasterida",
             "dosage": "5mg",
-            "quantity": 1,
+            "quantity": 0,
             "periods": [
                 "almoco"
             ],
@@ -118,7 +121,7 @@
             "name": "Lixiana",
             "substance": "Edoxabana",
             "dosage": "30mg",
-            "quantity": 13,
+            "quantity": 10,
             "periods": [
                 "almoco"
             ],
@@ -132,7 +135,7 @@
             "name": "Amitriptilina",
             "substance": "Amitriptilina",
             "dosage": "25mg",
-            "quantity": 58,
+            "quantity": 22,
             "periods": [
                 "cafe"
             ],
@@ -146,7 +149,7 @@
             "name": "Rosuvastatina",
             "substance": "Rosuvastatina",
             "dosage": "10mg",
-            "quantity": 2,
+            "quantity": 0,
             "periods": [
                 "jantar"
             ],
@@ -160,7 +163,7 @@
             "name": "Concor",
             "substance": "Hemifumarato de Bisoprolol",
             "dosage": "5mg",
-            "quantity": 6,
+            "quantity": 2,
             "periods": [
                 "dormir"
             ],
@@ -174,7 +177,7 @@
             "name": "Quetiapina",
             "substance": "Quetiapina",
             "dosage": "50mg",
-            "quantity": 10,
+            "quantity": 40,
             "periods": [
                 "dormir"
             ],
